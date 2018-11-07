@@ -14,7 +14,7 @@ import javax.microedition.khronos.opengles.GL10
 
 private const val TAG = "GLTest"
 
-class MGLSurfaceView(context: Context, attrs: AttributeSet) : GLSurfaceView(context, attrs) {
+class AAEnabledGLSurfaceView(context: Context, attrs: AttributeSet) : GLSurfaceView(context, attrs) {
     private val renderer = MRenderer()
 
     init {
